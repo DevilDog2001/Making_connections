@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.Bar{
+    background-color: rgb(14, 13, 13);
+}
+.nav{
+    width: 900px;
+    margin: 0 auto;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 20px;
+}
+.nav-links{
+    width: 600px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 30px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    height: 28px;
+    width: 94px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(14, 118, 203);
+    border: none;
+    font-size: 18px;
+    box-shadow: 5px 5px black;
+}
+.row{
+    display: flex;
+
+}
+.col{
+    flex: 1;
+
+}
+.col-2{
+    flex: 2;
+}
+.col,.col-2{
+    margin: 10px;
+    padding: 10px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#container{
+    margin: 0 auto;
+    width: 900px;
+
+}
+.User{
+    height: 110px;
+    margin: 30px;
+    margin-top: -50px;
+    padding: 3px;
+    background-color: white;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 80px;
+}
+.Location{
+    height: 20px;
+}
+h1{
+    font-size: 40px;
+    margin-top: -40px;
+    margin-left: 25px;
+}
+.Container2{
+
+}
+.banner{
+    height: 100px;
+    background-color: rgb(17, 153, 174);
+}
+.context{
+    margin-top: -5px;
+    margin-left: 25px;
+}
+.Gear{
+    margin-top: -30px;
+    margin-left: 25px;
+    margin-top: 15px;
+    height: 15px;
+}
+.context2{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+a{
+    margin-top: -30px;
+    margin-left: 5px;
+    color: rgb(14, 63, 161);
+}
+.container3{
+    height: 240px;
+    border-top: 0px;
+    border-left: 2px solid rgb(200, 192, 192);
+    border-right: 2px solid rgb(200, 192, 192);
+    border-bottom: 2px solid rgb(200, 192, 192);
+}
+.Todd{
+    border-radius: 50%;
+    height: 30px;
+    padding-left: 10px;
+    margin-right: 12px;
+    margin-top: 5px;
+}
+.card{
+    background-color: white;
+    border: 2px  solid rgb(173, 170, 170);
+    width: 100%;
+    margin-bottom: 8px;
+
+}
+.header{
+    background-color: rgb(42, 41, 41);
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+}
+.user-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#user-lineT{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#user-lineB{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.start,.end{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.card2{
+    background-color: white;
+    border: 2px  solid rgb(173, 170, 170);
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 150px;
+}
+.dates{
+    font-size: 20px;
+    color: rgb(182, 173, 173);
+}
+p{
+    margin-top: 5px;
+}
+.footer{
+    padding: 20px;
+    border-top: 2px solid lightgray;
+}
+#connections1 {
+    background-color: lightgray ;
+    color: rgb(36, 33, 33);
+    border-radius: 10px;
+    line-height: 20px;
+    padding: 0 10px;
+    margin-right: 7px;
+}
+#connections2 {
+    background-color: lightgray ;
+    color: rgb(36, 33, 33);
+    border-radius: 10px;
+    line-height: 20px;
+    padding: 0 10px;
+    margin-right: 7px;
+}

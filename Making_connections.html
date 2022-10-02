@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./CSS/Making_connections.css">
+    <title>Profile Page</title>
+</head>
+<body>
+    <div class="Bar">
+        <div class="nav">
+            <h1 class="nav-title">Profile</h1>
+            <ul class="nav-links">
+                <li><a href="link1">Home</a></li>
+                <li><a href="link2" class="active">My Profile</a></li>
+                <li><a href="link3">Find Connections</a></li>
+                <li><button class="btn">Sign Out</button></li>
+            </ul>
+        </div>
+    </div>
+    <div id="container">
+        <div class="row">
+            <!--Left pic-->
+            <div class="col-2">
+                <div class ="Container2">
+                    <div class = "banner"></div>
+                    <div class= "container3">
+                        <img class="User" src="./Images/jane-m.jpg" alt = "User">
+                        <h1 id="Proname">Jane Doe</h1>
+                        <div class = "context">
+                        <img class="Location" src="./Images/map-marker.png" alt="Location">
+                        Seattle
+                        </div>
+                        <div class="context2">
+                            <p>Developer | Engineer | Problem Solver</p>
+                            <p>Master of shadows and the Internet!</p>
+                        </div>
+                            <img class="Gear" src="./Images/gear.png" alt="Gear">
+                            <a href="#" onclick="newname()">edit profile</a>
+                    </div>
+                    <div class="card2">
+                        <div class="header">
+                            Education
+                        </div>
+                        <div class="context2">
+                            <h2>Coding Dojo BootCamp</h2>
+                            <p class="dates"> Dec 2019 - Mar 2020</p>
+                            <p>Triple Black Belt in Python, C#, and Mern....</p>
+                        </div>
+                    </div>
+                </div> 
+                
+            </div>
+            <!--Right pic-->
+                <div class="col">
+                    <div class="card">
+                        <div class="header">
+                            <span id="connections1">2</span> 
+                            Connection Requests
+                        </div>
+                        <div class="card-body">
+                            <div id="user-lineT">
+                                <span class="start">
+                                    <img class="Todd" src="./Images/todd-s.jpg" alt="Todd">
+                                    <span>Todd.E</span>
+                                </span>
+                                <span class="end">
+                                    <img class="Todd" onclick="cr1()" src="./Images/accept-circle.png" alt="Accept">
+                                    <img class="Todd" onclick="cr3()" src="./Images/close-circle.png" alt="Decline">
+                                </span>
+                            </div>
+                            <div id="user-lineB">
+                                <span class="start">
+                                    <img class="Todd" src="./Images/phil-s.jpg" alt="Todd">
+                                    <span>Phil K</span>
+                                </span>
+                                <span class="end">
+                                    <img class="Todd" onclick="cr2()" src="./Images/accept-circle.png" alt="Accept">
+                                    <img class="Todd" onclick="cr4()" src="./Images/close-circle.png" alt="Decline">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="header">
+                            <span id="connections2">500+</span>
+                            Your Connections
+                        </div>
+                        <div class="card-body">
+                            <div class="user-line">
+                                <span class="start">
+                                    <img class="Todd" src="./Images/adrien-s.jpg" alt="Todd">
+                                    <span>Adrien D</span>
+                                </span>
+                            </div>
+                            <div class="user-line">
+                                <span class="start">
+                                    <img class="Todd" src="./Images/anne-s.jpg" alt="Todd">
+                                    <span>Anne J</span>
+                                </span>
+                            </div>
+                            <div class="user-line">
+                                <span class="start">
+                                    <img class="Todd" src="./Images/alayne-s.jpg" alt="Todd">
+                                    <span>Alayne T</span>
+                                </span>
+                            </div>
+                            <div class="user-line">
+                                <span class="start">
+                                    <img class="Todd" src="./Images/arry-s.jpg" alt="Todd">
+                                    <span>Arry Y</span>
+                                </span>
+                            </div>
+                            <div class="footer">
+                                <a href="#">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./Making_connections.js"></script>
+</body>
+</html>
